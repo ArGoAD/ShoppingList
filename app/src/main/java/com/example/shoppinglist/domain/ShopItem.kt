@@ -1,6 +1,7 @@
 package com.example.shoppinglist.domain
 
 data class ShopItem(
+    //This is base for app
     val name: String,
     val count: Int,
     val enabled: Boolean,
