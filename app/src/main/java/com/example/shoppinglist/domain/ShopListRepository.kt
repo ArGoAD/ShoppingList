@@ -1,7 +1,9 @@
 package com.example.shoppinglist.domain
 
-interface ShopListRepository {
+import androidx.lifecycle.LiveData
 
+interface ShopListRepository {
+    //Allow works domain with others parts(presentation and data)
     fun addShopItem(shopItem: ShopItem)
 
     fun editShopItem(shopItem: ShopItem)
@@ -10,6 +12,6 @@ interface ShopListRepository {
 
     fun removeShopItem(shopItem: ShopItem)
 
-    fun getShopList(): List<ShopItem>
+    fun getShopList(): LiveData<List<ShopItem>>
 
 }
