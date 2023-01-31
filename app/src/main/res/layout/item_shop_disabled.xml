@@ -19,7 +19,7 @@
 
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/nameDisable"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -32,7 +32,7 @@
             tools:text="Bread" />
 
         <TextView
-            android:id="@+id/count"
+            android:id="@+id/countDisable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
